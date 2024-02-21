@@ -2,7 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Poppins', sans-serif;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 body{
@@ -33,7 +33,7 @@ body{
    background-color: #ebfffc;
    color: #555;
    padding: 10px 25px;
-   height: 60px;
+   height: 50px;
    border-radius: 30px;
    flex: 1;
    margin-right: 16px;
@@ -52,4 +52,44 @@ body{
 
 .search button img{
    width: 16px;
+}
+
+.weather-icon{
+   width: 170px;
+   margin-top: 30px;
+}
+
+.weather h1{
+   font-size: 100px;
+   font-weight: 500;
+   margin-top: -20px;
+}
+.weather h2{
+   font-size: 45px;
+   font-weight: 400;
+   margin-top: -25px;
+}
+
+.details{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+   margin-top: 50px;
+}
+
+.col{
+   display: flex;
+   align-items: center;
+   text-align: left;
+}
+
+.col img{
+   width: 40px;
+   margin-right: 10px;
+}
+
+.humidity,.wind{
+   font-size: 25px;
+   margin-top: -6px;
 }
